@@ -9,6 +9,7 @@ import { InventoryComponent } from './component/inventory/inventory.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { DashboardSellComponent } from './component/dashboard-sell/dashboard-sell.component';
 import { SummaryComponent } from './component/summary/summary.component';
+import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SummaryComponent } from './component/summary/summary.component';
     InventoryComponent,
     DashboardComponent,
     DashboardSellComponent,
-    SummaryComponent
+    SummaryComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
